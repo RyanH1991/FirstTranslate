@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/sourceLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Source Language" />
+
+    <EditText
+        android:id="@+id/targetLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sourceLanguage"
+        android:hint="Target Language" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/targetLanguage"
+        android:hint="Enter text" />
+
+    <Button
+        android:id="@+id/translateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputText"
+        android:text="Translate" />
+
+    <EditText
+        android:id="@+id/outputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/translateButton"
+        android:hint="Translated text"
+        android:editable="false" />
+
+</RelativeLayout>
+
+<!--    <?xml version="1.0" encoding="utf-8"?>-->
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:padding="16dp">-->
+
+<!--<EditText-->
+<!--    android:id="@+id/inputText"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:hint="Enter text" />-->
+
+<!--<Button-->
+<!--    android:id="@+id/translateButton"-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_below="@+id/inputText"-->
+<!--    android:text="Translate" />-->
+
+<!--<EditText-->
+<!--    android:id="@+id/outputText"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:layout_below="@+id/translateButton"-->
+<!--    android:hint="Translated text"-->
+<!--    android:editable="false" />-->
+
+<!--</RelativeLayout>-->
